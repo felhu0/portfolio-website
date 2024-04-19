@@ -43,20 +43,36 @@ export const experiencesData = [
     date: "2008-2011",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Adult Education (Komvux)",
+    location: "Stockholm",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Programming 1",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Adult Education (Komvux)",
+    location: "Stockholm",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Web Development 2",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023",
+  },
+  {
+    title: "Adult Education (Komvux)",
+    location: "Stockholm",
+    description:
+      "Interface Design",
+    icon: React.createElement(FaReact),
+    date: "2023",
+  },
+  {
+    title: "KYH Vocational College",
+    location: "Stockholm",
+    description:
+      "Front End Developer",
+    icon: React.createElement(FaReact),
+    date: "2023 - 2025",
   },
 ] as const;
 
