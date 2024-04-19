@@ -1,5 +1,5 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
+import { FaBookOpen } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import elegantauraImg from "@/public/elegant-aura.png";
@@ -63,7 +63,7 @@ export const experiencesData = [
     location: "Stockholm",
     description:
       "Interface Design",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
   {
@@ -71,7 +71,7 @@ export const experiencesData = [
     location: "Stockholm",
     description:
       "Front End Developer",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(FaBookOpen),
     date: "2023 - 2025",
   },
 ] as const;
