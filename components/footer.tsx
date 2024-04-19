@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="mb-10 px-4
     text-center text-gray-500">
         <small className="mb-2 block text-xs">
-            copy; 2024 Felicia. All rights reserved.
+           Felicia&apos;s Portfolio 2024
         </small>
         <p className="text-xs">
             <span 
