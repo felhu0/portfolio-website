@@ -117,7 +117,7 @@ export default function Intro() {
           active:scale-105 transition 
           cursor-pointer border
           borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com" target="_blank">
+          href="www.linkedin.com/in/felicia-hu-790b572b0" target="_blank">
             <BsLinkedin />
           </a>
 
@@ -128,7 +128,7 @@ export default function Intro() {
           active:scale-105 transition 
           cursor-pointer border
           borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com" target="_blank">
+          href="https://github.com/felhu0" target="_blank">
             <FaGithubSquare />
           </a>
         </motion.div>
