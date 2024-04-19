@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import elegantauraImg from "@/public/elegant-aura.png";
+import techtroveImg from "@/public/tech-trove.png";
+import spoonfulImg from "@/public/spoonfuls.png";
 
 export const links = [
   {
@@ -47,7 +47,7 @@ export const experiencesData = [
     location: "Stockholm",
     description:
       "Programming 1",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
   {
@@ -55,7 +55,7 @@ export const experiencesData = [
     location: "Stockholm",
     description:
       "Web Development 2",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
   {
@@ -78,31 +78,32 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Elegant Aura",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Elegant Aura is a website focusing on beauty products, using HTML and Sass without any functionality.",
+    tags: ["Html", "Sass"],
+    imageUrl: elegantauraImg,
   },
   {
-    title: "rmtDev",
+    title: "TECH TROVE",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "TECH TROVE is a full-stack application for e-commerce, focusing on electronics. It is built with React, Node.js, using Express, and utilizes MongoDB for data storage. ",
+    tags: ["React", "Css", "Node.js", "MongoDB", "Express"],
+    imageUrl: techtroveImg,
   },
   {
-    title: "Word Analytics",
+    title: "Spoonfuls",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Spoonful is a Figma prototype for an online soup delivery service. This prototype focuses on user-friendly design and an efficient ordering process. ",
+    tags: ["Figma"],
+    imageUrl: spoonfulImg,
   },
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
+  "Sass",
   "JavaScript",
   "TypeScript",
   "React",
@@ -113,11 +114,7 @@ export const skillsData = [
   "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
   "Framer Motion",
 ] as const;
