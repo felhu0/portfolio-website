@@ -12,13 +12,13 @@ import { useTheme } from "@/context/theme-context";
 
 
 export default function Experience() {
-const { ref } = useSectionInView('Experience')
+const { ref } = useSectionInView('Education')
 const { theme } = useTheme()
 console.log(experiencesData);
 
   return (
     <section 
-    id="experience"
+    id="education"
     ref={ref} 
     className="scroll-mt-28 mb-28 sm:mb-40 ">
         <SectionHeading>My Education
