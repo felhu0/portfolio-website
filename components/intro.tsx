@@ -8,6 +8,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import  profileImg from "@/public/profile-img.png"
 
 export default function Intro() {
   
@@ -32,7 +33,7 @@ export default function Intro() {
                   }}
                 >
                   <Image 
-                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src={profileImg}
                   alt="portrait"
                   width="192"
                   height="192"
@@ -117,7 +118,7 @@ export default function Intro() {
           active:scale-105 transition 
           cursor-pointer border
           borderBlack dark:bg-white/10 dark:text-white/60"
-          href="www.linkedin.com/in/felicia-hu-790b572b0" target="_blank">
+          href="https://linkedin.com/in/felicia-hu-790b572b0" target="_blank">
             <BsLinkedin />
           </a>
 

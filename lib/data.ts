@@ -1,6 +1,6 @@
 import React from "react";
 import { FaBookOpen } from "react-icons/fa";
-import { FaReact } from "react-icons/fa";
+
 import { LuGraduationCap } from "react-icons/lu";
 import elegantauraImg from "@/public/elegant-aura.png";
 import techtroveImg from "@/public/tech-trove.png";
@@ -33,7 +33,7 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
+export const educationsData = [
   {
     title: "High School Education",
     location: "Carlsund Educational Center",

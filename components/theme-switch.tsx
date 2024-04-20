@@ -20,7 +20,7 @@ export default function ThemeSwitch() {
             theme === 'light' ?  <BsSun /> : <BsMoon />
             
         }
-        <BsSun />
+       
     </button>
   )
 }
