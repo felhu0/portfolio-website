@@ -2,7 +2,8 @@
 
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import Image from "next/image";
+
+import Image, { StaticImageData } from "next/image";
 import { useRef } from "react";
 import { FaFigma, FaGithubSquare } from "react-icons/fa";
 
@@ -11,7 +12,7 @@ type ProjectProps = {
     title: string;
     description: string;
     tags: readonly string[];
-    imageUrl: string;
+    imageUrl: StaticImageData;
     githubLink?: string; // The ? makes githubLink optional
     figmaLink?: string; // The ? makes figmaLink optional
   };
