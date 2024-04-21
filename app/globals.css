@@ -15,3 +15,56 @@ html.dark {
 .borderBlack {
     @apply border border-black/10
 }
+
+@media only screen and (min-width: 1170px) {
+    .vertical-timeline.vertical-timeline--two-columns {
+      
+      padding: 1em 1em;
+      margin: 50px;
+      justify-items: center;
+      text-align: center;
+      width: 100%;
+     
+     
+      
+      .vertical-timeline-element-content .vertical-timeline-element-date {
+        left: 150%;
+      }
+
+      .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content .vertical-timeline-element-date {
+        right: 150%;
+      }
+    }
+    
+  
+    .vertical-timeline::before {
+      left: 18px;
+      margin: 100px;
+    }
+  
+    .vertical-timeline-element {
+        margin: 10px;
+       
+    }
+    
+    .vertical-timeline-element-content {
+      margin-left: 70px;
+      /* margin-left: 100px; */
+
+    }
+   
+    .vertical-timeline-element-content-arrow {
+      /* right: 70px; */
+      /* margin-right: 100px; */
+      border-right: 7px solid white;
+      
+    }
+
+ 
+    /* s */
+  
+    .vertical-timeline-element-icon {
+      left: 0;
+    }
+    
+  }

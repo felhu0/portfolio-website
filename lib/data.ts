@@ -38,7 +38,7 @@ export const educationsData = [
     title: "High School Education",
     location: "Carlsund Educational Center",
     description:
-      "Business Program",
+      "Business Program ",
     icon: React.createElement(LuGraduationCap),
     date: "2008-2011",
   },
@@ -46,7 +46,7 @@ export const educationsData = [
     title: "Adult Education (Komvux)",
     location: "Stockholm",
     description:
-      "Programming 1",
+      "Programming 1 ",
     icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
@@ -54,7 +54,7 @@ export const educationsData = [
     title: "Adult Education (Komvux)",
     location: "Stockholm",
     description:
-      "Web Development 2",
+      "Web Development 2 ",
     icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
@@ -62,7 +62,7 @@ export const educationsData = [
     title: "Adult Education (Komvux)",
     location: "Stockholm",
     description:
-      "Interface Design",
+      "Interface Design ",
     icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
