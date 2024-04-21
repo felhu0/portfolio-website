@@ -12,12 +12,12 @@ type ProjectProps = {
     description: string;
     tags: string[];
     imageUrl: string;
-    githubLink?: string; // The ? makes githubLink optional
-    figmaLink?: string; // The ? makes figmaLink optional
+    // githubLink?: string; // The ? makes githubLink optional
+    // figmaLink?: string; // The ? makes figmaLink optional
   };
   
 
-export default function Project({ title, description, tags, imageUrl, githubLink, figmaLink }:
+export default function Project({ title, description, tags, imageUrl }:
 ProjectProps) {
     const ref = useRef<HTMLDivElement>(null)
     const { scrollYProgress } = useScroll({
