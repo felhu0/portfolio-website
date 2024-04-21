@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="mb-10 px-4
-    text-center text-white">
+    text-center text-white/60">
         <small className="mb-2 block text-xs">
            Felicia&apos;s Portfolio 2024
         </small>
