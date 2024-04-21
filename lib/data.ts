@@ -83,6 +83,7 @@ export const projectsData = [
       "Elegant Aura is a website focusing on beauty products, using HTML and Sass without any functionality.",
     tags: ["Html", "Sass"],
     imageUrl: elegantauraImg,
+    projectLink: "https://elegant-aura.vercel.app",
     githubLink: "https://github.com/felhu0/Elegant-Aura",
   },
   {
@@ -91,6 +92,7 @@ export const projectsData = [
       "TECH TROVE is a full-stack application for e-commerce, focusing on electronics. It is built with React, Node.js, using Express, and utilizes MongoDB for data storage. ",
     tags: ["React", "Css", "Node.js", "MongoDB", "Express"],
     imageUrl: techtroveImg,
+    projectLink: "https://ecommerce-fullstack-app-production.up.railway.app",
     githubLink: "https://github.com/felhu0/ecommerce-fullstack",
   },
   {
@@ -99,6 +101,7 @@ export const projectsData = [
       "Spoonful is a Figma prototype for an online soup delivery service. This prototype focuses on user-friendly design and an efficient ordering process. ",
     tags: ["Figma"],
     imageUrl: spoonfulImg,
+    projectLink: "https://www.figma.com/file/qOoL1FoiFb8pM9Tc5KakbS/Spoonfuls-prototyp?type=design&mode=design&t=tg6ZFZcJdmfALrln-0",
     figmaLink: "https://www.figma.com/file/qOoL1FoiFb8pM9Tc5KakbS/Spoonfuls-prototyp?type=design&mode=design&t=tg6ZFZcJdmfALrln-0",
    
   },

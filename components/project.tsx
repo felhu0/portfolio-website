@@ -13,12 +13,13 @@ type ProjectProps = {
     description: string;
     tags: readonly string[];
     imageUrl: StaticImageData;
+    projectLink?: string; // The ? makes projectLink optional
     githubLink?: string; // The ? makes githubLink optional
     figmaLink?: string; // The ? makes figmaLink optional
   };
   
 
-export default function Project({ title, description, tags, imageUrl, githubLink, figmaLink}:
+export default function Project({ title, description, tags, imageUrl, projectLink, githubLink, figmaLink}:
 ProjectProps) {
     const ref = useRef<HTMLDivElement>(null)
     const { scrollYProgress } = useScroll({
@@ -94,7 +95,7 @@ ProjectProps) {
                     
                 </div>
                 
-
+                <a href={projectLink} target="_blank">
                 <Image src={imageUrl} 
                 alt="Project I worked on" 
                 quality={95} 
@@ -112,6 +113,7 @@ ProjectProps) {
                 group-even:-right-[initial] 
                 group-even:-left-40"
                 /> 
+                </a>
             </section>
         </motion.div>
    
