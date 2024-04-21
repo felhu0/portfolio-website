@@ -113,6 +113,7 @@ ProjectProps) {
                 group-even:-right-[initial] 
                 group-even:-left-40"
                 /> 
+                <button className="sm:hidden p-4 underline text-xs">View Project</button>
                 </a>
             </section>
         </motion.div>
