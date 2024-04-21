@@ -48,7 +48,7 @@ ProjectProps) {
                     flex-col h-full sm:group-even:ml-[18rem]">
                     <div className="flex gap-3">
                         <h3 className="text-2xl font-semibold">{title}</h3>
-                       {githubLink && (
+                       {/* {githubLink && (
                          <a className="bg-white p-1 text-indigo-900
                          flex items-center gap-2 text-[1.35rem]
                          rounded-full focus:scale-[1.15] hover:scale-[1.15]
@@ -71,7 +71,7 @@ ProjectProps) {
                          href={figmaLink} target="_blank">
                          <FaFigma />
                          </a>
-                       )}
+                       )} */}
                     </div>
                     
                     <p className="mt-2 leading-relaxed
