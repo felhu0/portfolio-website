@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import elegantauraImg from "@/public/elegant-aura.png";
 import techtroveImg from "@/public/tech-trove.png";
 import spoonfulImg from "@/public/spoonfuls.png";
+import nestifyImg from "@/public/nestify.png";
 
 export const links = [
   {
@@ -105,6 +106,16 @@ export const projectsData = [
     figmaLink: "https://www.figma.com/file/qOoL1FoiFb8pM9Tc5KakbS/Spoonfuls-prototyp?type=design&mode=design&t=tg6ZFZcJdmfALrln-0",
    
   },
+  {
+    title: "Nestify",
+    description:
+      "Nestify is a platform that simplifies finding, booking, and paying for accommodations, with a focus on older adults and individuals with limited mobility.",
+    tags: ["Figma", "Next.js", "Tailwind", "Firebase", "Stripe"],
+    imageUrl: nestifyImg,
+    projectLink: "https://nestify-roan.vercel.app/",
+    githubLink: "https://github.com/felhu0/Nestify",
+   
+  },
 ] as const;
 
 export const skillsData = [
@@ -115,6 +126,7 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "Remix",
   "Node.js",
   "Git",
   "Tailwind",
@@ -124,4 +136,9 @@ export const skillsData = [
   "Express",
   "Python",
   "Framer Motion",
+  "Figma",
+  "Firebase",
+  "Stripe",
+  "Vercel",
+
 ] as const;
