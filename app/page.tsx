@@ -9,19 +9,18 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    
- 
-      <main className="flex flex-col items-center
+
+
+    <main className="flex flex-col items-center
         px-4">
       <Intro />
-      <SectionDivider />
       <About />
       <Projects />
       <Skills />
       <Education />
       <Contact />
     </main>
-    
-    
+
+
   )
 }

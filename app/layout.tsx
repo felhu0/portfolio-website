@@ -34,7 +34,10 @@ export default function RootLayout({
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <Header />
-            {children}
+            <div className="relative w-full max-w-screen-lg mx-auto">
+              {children}
+            </div>
+
             <Footer />
 
             <Toaster position="top-right" />

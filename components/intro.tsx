@@ -19,7 +19,7 @@ export default function Intro() {
       ref={ref}
       id="home"
       className="mb-28 max-w-[50rem]
-    text-center sm:mb-0 
+    text-center 
     scroll-mt-[100rem]"
     >
       <div className="flex items-center justify-center">

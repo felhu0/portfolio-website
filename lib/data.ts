@@ -68,7 +68,7 @@ export const educationsData = [
     date: "2023",
   },
   {
-    title: "KYH Vocational College",
+    title: "KYH Yrkeshögskola",
     location: "Stockholm",
     description:
       "Front End Developer",
