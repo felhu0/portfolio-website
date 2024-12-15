@@ -43,6 +43,7 @@ html.dark {
     width: 2px;
     height: calc(100% + 100px);
     background-color: var(--line-color);
+    z-index: -10;
   }
 
   .vertical-timeline-element {
@@ -85,4 +86,8 @@ html.dark {
   .vertical-timeline-element-content-arrow {
     display: none !important;
   }
+}
+
+html.dark .vertical-timeline::before {
+  background-color: rgba(255, 255, 255, 0.05);
 }
