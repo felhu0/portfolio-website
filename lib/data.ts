@@ -140,5 +140,7 @@ export const skillsData = [
   "Firebase",
   "Stripe",
   "Vercel",
+  "Expo",
+  "React Native",
 
 ] as const;

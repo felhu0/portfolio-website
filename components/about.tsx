@@ -22,11 +22,11 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
 
       <p className="text-sm sm:text-base">
-        I am a student at KYH where I am studying to become a front-end developer. {" "}
-        During my education, I have learned JavaScript, Tailwind CSS, React, and some back-end {" "} programming with Node.js.
-        I can create well-functioning websites with HTML, CSS, and React.{" "}
-        I am a curious person who spends a lot of time in my free time learning {" "}new things outside of school.{" "}
-        A strong passion for coding also guides my {" "} interest towards full-stack development.
+        I recently graduated from KYH, where I studied to become a front-end developer. {" "}
+        During my education, I have learned JavaScript, Tailwind CSS, HTLM, React, Next.js, Typescript, and some back-end {" "} programming with Node.js.
+        I’ve also completed an internship where I built a full-featured web application using Remix and a mobile app for both Android and iOS using Expo and React Native. {" "}
+        I’m a curious and driven person who enjoys exploring new technologies in my free time. {" "}
+        My passion for coding continues to grow, and I’m eager to take the next step toward becoming a full-stack developer.
       </p>
 
     </motion.section>
