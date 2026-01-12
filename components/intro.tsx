@@ -23,7 +23,7 @@ export default function Intro() {
     scroll-mt-[100rem]"
     >
       <div className="flex items-center justify-center">
-        <div className="relative">
+        <div className="relative mb-10">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -66,10 +66,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I&apos;m Felicia.</span> I&apos;m a{" "}
-        <span className="font-bold">recently graduated frontend developer</span> with{" "}
-        <span className="font-bold">a strong foundation in building responsive websites and applications. </span>
-        <span className="font-bold">I&apos;m passionate about clean, user-friendly design and eager to continue growing my skills to become a full-stack developer.</span>
+        <span className="font-bold">Hello, I&apos;m Felicia!</span> <br />
+        <span className="font-bold">I’m a junior frontend developer with a passion for creating responsive and user-friendly applications.{" "}</span>
+        <span className="font-bold">I’m currently studying backend development with .NET to become a full-stack developer.</span>
       </motion.h1>
 
       <motion.div
