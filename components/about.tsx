@@ -20,15 +20,23 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
+      <div className="space-y-4">
+        <p className="text-sm sm:text-base">
+          I’m currently working part-time as a front-end developer while studying .NET development at Nackademin.
+        </p>
 
-      <p className="text-sm sm:text-base">
-        I recently graduated from KYH, where I studied to become a front-end developer. {" "}
-        During my education, I have learned JavaScript, Tailwind CSS, HTLM, React, Next.js, Typescript, and some back-end {" "} programming with Node.js.
-        I’ve also completed an internship where I built a full-featured web application using Remix and a mobile app for both Android and iOS using Expo and React Native. {" "}
-        I’m a curious and driven person who enjoys exploring new technologies in my free time. {" "}
-        My passion for coding continues to grow, and I’m eager to take the next step toward becoming a full-stack developer.
-      </p>
+        <p className="text-sm sm:text-base">
+          I previously studied front-end development at KYH, where I learned JavaScript, Tailwind CSS, HTML, React, Next.js, TypeScript, and how to work with REST APIs. I also worked with NoSQL databases such as Firebase and MongoDB, as well as mobile development using React Native with Expo.
+        </p>
 
+        <p className="text-sm sm:text-base">
+          In my current studies, I have developed skills in relational databases, SQL Server, Entity Framework, .NET, ASP.NET, MVC, and Web API.
+        </p>
+
+        <p className="text-sm sm:text-base">
+          I’m a curious and driven person who enjoys exploring new technologies in my free time. My passion for coding continues to grow, and I’m eager to take the next step toward becoming a full-stack developer.
+        </p>
+      </div>
     </motion.section>
   )
 }

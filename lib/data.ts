@@ -75,6 +75,13 @@ export const educationsData = [
     icon: React.createElement(FaBookOpen),
     date: "2023 - 2025",
   },
+  {
+    title: "Nackademin Yrkeshögskola",
+    location: "Stockholm",
+    description: ".NET Developer",
+    icon: React.createElement(FaBookOpen),
+    date: "2025 - 2027",
+  },
 ] as const;
 
 export const projectsData = [
@@ -129,7 +136,7 @@ export const skillsData = [
   "Remix",
   "Node.js",
   "Git",
-  "Tailwind",
+  "Tailwind CSS",
   "Prisma",
   "MongoDB",
   "Redux",
@@ -142,5 +149,10 @@ export const skillsData = [
   "Vercel",
   "Expo",
   "React Native",
-
+  "C#",
+  ".NET",
+  "ASP.NET",
+  "Web API",
+   "SQL Server",
+  "Entity Framework",
 ] as const;

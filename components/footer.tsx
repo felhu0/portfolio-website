@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="mb-10 px-4
     text-center dark:text-white/60">
       <small className="mb-2 block text-xs">
-        Felicia&apos;s Portfolio 2025
+        Felicia&apos;s Portfolio 2026
       </small>
       <p className="text-xs">
         <span
